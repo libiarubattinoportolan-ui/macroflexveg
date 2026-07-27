@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>MacroFlex Veg</title>
 
 <link rel="stylesheet" href="style.css">
@@ -11,11 +15,66 @@
 
 <body>
 
+<header>
+
 <h1>🥗 MacroFlex Veg</h1>
 
-<p>Calculadora Inteligente de Macros</p>
+<p>Seu Nutricionista Inteligente</p>
 
-<button>Adicionar Refeição</button>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Meta Diária</h2>
+
+<div class="linha">
+<span>🔥 Calorias</span>
+<strong id="kcal">2200 kcal</strong>
+</div>
+
+<div class="linha">
+<span>💪 Proteína</span>
+<strong id="proteina">0 / 190 g</strong>
+</div>
+
+<div class="linha">
+<span>🍚 Carboidratos</span>
+<strong id="carbo">0 / 200 g</strong>
+</div>
+
+<div class="linha">
+<span>🥑 Gorduras</span>
+<strong id="gordura">0 / 60 g</strong>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Hoje</h2>
+
+<button id="novaRefeicao">
+
+➕ Nova Refeição
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>Resumo</h2>
+
+<p>Nenhuma refeição cadastrada.</p>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
 
 </body>
+
 </html>
