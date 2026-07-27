@@ -34,3 +34,9 @@ function atualizarTela() {
 
 // Inicializa a tela
 atualizarTela();
+// Botão Nova Refeição
+document.getElementById("novaRefeicao").addEventListener("click", function () {
+
+    alert("Nova Refeição\n\nEm breve você poderá escolher alimentos e informar a quantidade.");
+
+});
